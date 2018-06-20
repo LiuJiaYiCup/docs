@@ -14,7 +14,7 @@ There are two main methods for submitting files to an HTCondor-CE: using the too
 Before attempting to submit jobs, you will need to generate a proxy from a user certificate before running any jobs. To generate a proxy, run the following command on the host you plan on submitting from:
 
 ``` console
-user@host $ voms-proxy-init
+user@host $ grid-proxy-init
 ```
 
 ### Using HTCondor-CE tools
